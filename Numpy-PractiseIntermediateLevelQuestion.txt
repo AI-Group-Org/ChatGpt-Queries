@@ -1,0 +1,76 @@
+
+Question:
+list me 20 intermediate level questions to practise numpy library in python along with datasets
+
+ChatGPT said:
+Here are 20 intermediate-level NumPy practice questions along with datasets to help reinforce your learning:
+
+1. Array Manipulation & Indexing
+    - Extract all even numbers from a NumPy array
+        - Dataset: np.random.randint(1, 100, 50)
+
+    - Replace all negative values in an array with zero
+        - Dataset: np.random.randint(-50, 50, 30)
+
+    - Find the indices of all non-zero elements in an array
+        - Dataset: np.array([1, 0, 2, 0, 3, 0, 4])
+
+    - Split a NumPy array into N equal-sized subarrays
+        - Dataset: np.arange(1, 25)
+ 
+    - Stack two NumPy arrays column-wise and row-wise
+        - Dataset: A = np.arange(1, 10).reshape(3, 3), B = np.arange(10, 19).reshape(3, 3)
+
+2. Mathematical & Statistical Operations
+    - Compute the mean, median, and standard deviation of a NumPy array
+        - Dataset: np.random.randint(1, 100, 50)
+    
+    - Find the row-wise and column-wise sum of a matrix
+        - Dataset: np.random.randint(1, 100, (4,4))
+    
+    - Compute the dot product of two NumPy arrays
+        - Dataset: A = np.array([2, 3, 5]), B = np.array([1, 4, 6])
+    
+    - Find the determinant and inverse of a given matrix
+        - Dataset: np.random.randint(1, 10, (3,3))
+    
+    - Compute the correlation coefficient between two NumPy arrays
+        - Dataset: A = np.random.randint(1, 100, 50), B = np.random.randint(1, 100, 50)
+
+3. Broadcasting & Boolean Operations
+    - Normalize a NumPy array to bring values between 0 and 1
+        - Dataset: np.random.randint(1, 100, 20)
+    
+    - Find the unique elements and their counts in a NumPy array
+        - Dataset: np.random.randint(1, 10, 20)
+    
+    - Apply a mathematical function (e.g., sin, log, sqrt) element-wise on a NumPy array
+        - Dataset: np.linspace(1, 100, 20)
+    
+    - Find all elements in a NumPy array that are within a given range (e.g., 10 to 50)
+        - Dataset: np.random.randint(1, 100, 50)
+    
+    - Use NumPy's where function to replace values conditionally in an array
+        - Dataset: np.random.randint(1, 100, 30)
+
+4. Linear Algebra & Transformations
+    - Solve a system of linear equations using NumPy
+        - Dataset:
+            - A = np.array([[2, -1], [1, 3]])
+            - B = np.array([1, 7])
+    
+    - Perform Singular Value Decomposition (SVD) on a matrix
+        - Dataset: np.random.rand(4, 4)
+    
+    - Generate a random symmetric matrix and compute its eigenvalues & eigenvectors
+        - Dataset: A = np.random.randint(1, 10, (3,3)) and A = (A + A.T)/2
+    
+    - Reshape a 1D NumPy array into a 2D array without changing its data
+        - Dataset: np.arange(1, 21)
+    
+    - Perform a Fast Fourier Transform (FFT) on a sample signal
+        - Dataset:
+            - t = np.linspace(0, 1, 100)
+            - signal = np.sin(2 * np.pi * 10 * t)
+
+Would you like solutions or hints for any of these? 🚀
