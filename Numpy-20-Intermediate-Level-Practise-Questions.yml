@@ -1,0 +1,32 @@
+### **2. 20 Intermediate-Level NumPy Practice Questions**
+
+#### **Array Manipulation & Indexing**
+1. Extract all even numbers from `np.random.randint(1, 100, 50)`  
+2. Replace all negative values in `np.random.randint(-50, 50, 30)` with zero  
+3. Find the indices of non-zero elements in `np.array([1, 0, 2, 0, 3, 0, 4])`  
+4. Split `np.arange(1, 25)` into N equal-sized subarrays  
+5. Stack two NumPy arrays column-wise and row-wise  
+
+#### **Mathematical & Statistical Operations**
+6. Compute mean, median, and standard deviation of `np.random.randint(1, 100, 50)`  
+7. Find row-wise and column-wise sum of `np.random.randint(1, 100, (4,4))`  
+8. Compute dot product of `A = np.array([2, 3, 5])` and `B = np.array([1, 4, 6])`  
+9. Find determinant and inverse of `np.random.randint(1, 10, (3,3))`  
+10. Compute correlation coefficient between `np.random.randint(1, 100, 50)` and another array  
+
+#### **Broadcasting & Boolean Operations**
+11. Normalize `np.random.randint(1, 100, 20)` between 0 and 1  
+12. Find unique elements and their counts in `np.random.randint(1, 10, 20)`  
+13. Apply `sin`, `log`, or `sqrt` element-wise on `np.linspace(1, 100, 20)`  
+14. Find elements in `np.random.randint(1, 100, 50)` within range (10-50)  
+15. Use NumPy's `where` function to replace values conditionally  
+
+#### **Linear Algebra & Transformations**
+16. Solve a system of linear equations using NumPy  
+17. Perform Singular Value Decomposition (SVD) on a matrix  
+18. Generate a random symmetric matrix and compute eigenvalues & eigenvectors  
+19. Reshape `np.arange(1, 21)` into a 2D array  
+20. Perform Fast Fourier Transform (FFT) on a sample signal  
+
+---
+
